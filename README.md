@@ -12,7 +12,7 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
 | Computer model | Machenike Machcreator-A |
 | Processor | Intel Core i3-10110U |
 | Memory | 8GB DDR4 2667 MHz |
-| Hard Disk | WD NVMe 256 Gb (Upgraded with Crucial P2 NVMe 1 Tb)|
+| Hard Disk | WD NVMe 256 Gb (Upgraded to Crucial P2 NVMe 1 Tb)|
 | Integrated Graphics | Intel UHD Graphics 620 |
 | Monitor | FHD 1920x1080 (15.6 inch) |
 | Sound Card | Realtek ALC293 (layout-id: 28) |
