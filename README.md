@@ -1,25 +1,6 @@
 # Clevo-NL4x_5xCU-Hackintosh
 Opencore Bootloader for Clevo NL4xCU / NL5xCU series laptop
 
-
-## Contents
-
-- [Configuration](#configuration)
-- [Current Status](#current-status)
-  - [Clover](#clover)
-  - [OpenCore](#opencore)
-- [Installation](#installation)
-  - [Identify Your Model](#identify-your-model)
-  - [First-time installation](#first-time-installation)
-  - [Build](#build)
-  - [Upgrade](#upgrade)
-- [Improvements](#improvements)
-- [FAQ](#faq)
-- [Changelog](#changelog)
-- [Credits](#credits)
-- [Support and discussion](#support-and-discussion)
-
-
 ## Configuration
 
 This repositry has been made based on a Machenike Machcreator-A laptop, which is a Clevo NL4x/5xCU rebrand
