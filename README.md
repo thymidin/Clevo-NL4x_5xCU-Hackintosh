@@ -48,6 +48,7 @@ Go to your BIOS and see if the device name is NL4x_5xCU. If it's the case, your 
   - https://dortania.github.io/OpenCore-Install-Guide/
   - You may try modifying the EFI folder to adapt it to your device after reading the install guide
   - Don't forget to edit the SMBIOS data in config.plist 
+  - Don't forget to add the Ressources folder (follow the guide to download it)
 
 ### CFG Unlock
 
