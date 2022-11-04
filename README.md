@@ -55,7 +55,7 @@ Go to your BIOS and see if the device name is NL4x_5xCU. If it's the case, your 
 Boot with OpenCore Bootloader, show auxiliary by typing space and use the included GRUB Shell. Then type "setup_var_cv CpuSetup 0x3E 0x01 0x00". Check if it has been done correctly using ControlMseE2.efi.
   - Follow this guide for more detailed infos : https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html
   
-###Post-Installation 
+### Post-Installation 
 
 - Use the following Guide https://dortania.github.io/OpenCore-Post-Install/
 
