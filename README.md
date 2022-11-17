@@ -23,12 +23,13 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
 
 ## Current Status
 
-- **HDMI** not tested
+- **HDMI** ~~not tested~~ fixed in last release
 - **Touchpad** is only working fine in polling mode
   - added -vi2c-force-polling in boot-args, not working otherwise. Tried GPIO pinning with no success.
 - **Intel Bluetooth** does not support some older Bluetooth devices
   - On macOS12+, Intel Bluetooth supports more Bluetooth 4.x devices
 - **Battery manager** doesn't work properly with SMCBatteryManager.kext (percentage not updating), solved by using Rehabman's ACPIBatteryManager.kext
+  - Recompiled from source using latest XCode
 - Everything else works well
 ---
 
