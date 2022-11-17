@@ -1569,7 +1569,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>msgbuf=10485760 -vi2c-force-polling npci=0x3000 igfxonln=1 -igfxblr darkwake=514 -hbfx-disable-patch-pci gfxrst=1 -hbfx-dump-nvram hbfx-ahbm=1</string>
+				<string>-vi2c-force-polling npci=0x3000 igfxonln=1 -igfxblr darkwake=514 -hbfx-disable-patch-pci gfxrst=1 -hbfx-dump-nvram hbfx-ahbm=1</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
