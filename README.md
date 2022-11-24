@@ -18,8 +18,8 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
 | Sound Card | Realtek ALC293 (layout-id: 28) |
 | Wireless Card | Intel Wireless-AC 9462 |
 | Ethernet Card | Realtek |
-| Trackpad | ? |
-| SD Card Reader | ? |
+| Trackpad | MSFT1001? |
+| SD Card Reader | RTS5287 (RTL8411B) |
 
 ## Current Status
 
@@ -30,12 +30,26 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
   - On macOS12+, Intel Bluetooth supports more Bluetooth 4.x devices
 - **Battery manager** doesn't work properly with SMCBatteryManager.kext (percentage not updating), solved by using Rehabman's ACPIBatteryManager.kext
   - Recompiled from source using latest XCode
-- Everything else works well
+  - Also works using VoodooBattery and FakeSMC, not used currently as the old ACPIBatteryManager.kext works just fine.
+- The **SD-Card reader** doesn't work with the RealtekCardReader.kext made by [0xFirewolf](https://github.com/0xFirewolf). It works with [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx) made by [cholonam](https://github.com/cholonam). Opened an issue about that I hope 0xFirewolf finds a solution to make it work.
+- **Currently trying to fix S3 sleep and hibernation :** sometimes fail to wake. I don't know if it is caused by the NVMe upgrade, the HDMI fix or something else.
+
+Everything else works well
+
+---
+
+### Known bugs
+
+- 🟨 **Touchpad** is only working fine in polling mode
+- ❌🟨 **SDCard** is sometimes not recognized after sleep. It is a known bug of [Sinetek-rtsx.kext](https://github.com/cholonam/Sinetek-rtsx).
+- ➡️🟨 **Sleep : ** fails to wake, screen freezes if you try S3 sleep or hibernation.
+
 ---
 
 ### OpenCore
 
-- Tested on macOS 12 Monterey (12.6)
+- Tested on macOS 12 Monterey (12.6.2)
+- Should work on macOS 13 Ventura (13) if you change the Airportitlwm.kext to the latest alpha release. I tried it and the wireless connection seems to be too unstable for daily usage at the moment.
 
 ## Installation
 
