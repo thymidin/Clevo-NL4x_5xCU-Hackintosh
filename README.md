@@ -11,8 +11,8 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
 | ------------------- | ------------------------------------------- |
 | Computer model | Machenike Machcreator-A |
 | Processor | Intel Core i3-10110U |
-| Memory | 8GB DDR4 2667 MHz |
-| Hard Disk | WD NVMe 256 Gb (Upgraded to Crucial P2 NVMe 1 Tb)|
+| Memory | ~~8Gb DDR4 2667 MHz~~ 16 Gb DDR4 2667 MHz |
+| Hard Disk | ~~WD NVMe 256 Gb (Upgraded to Crucial P2 NVMe 1 Tb)~~ Samsung 980 NVMe 1 Tb|
 | Integrated Graphics | Intel UHD Graphics 620 |
 | Monitor | FHD 1920x1080 (15.6 inch) |
 | Sound Card | Realtek ALC293 (layout-id: 28) |
@@ -32,7 +32,7 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
   - Recompiled from source using latest XCode
   - Also works using VoodooBattery and FakeSMC, not used currently as the old ACPIBatteryManager.kext works just fine.
 - The **SD-Card reader** doesn't work with the RealtekCardReader.kext made by [0xFirewolf](https://github.com/0xFirewolf). It works with [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx) made by [cholonam](https://github.com/cholonam). Opened an issue about that I hope 0xFirewolf finds a solution to make it work.
-- **Currently trying to fix S3 sleep and hibernation :** sometimes fail to wake. I don't know if it is caused by the NVMe upgrade, the HDMI fix or something else.
+- ~~**Currently trying to fix S3 sleep and hibernation :** sometimes fail to wake. I don't know if it is caused by the NVMe upgrade, the HDMI fix or something else.~~ S3 Sleep and hibernation working after NVMe change.
 
 Everything else works well
 
@@ -42,7 +42,7 @@ Everything else works well
 
 - 🟨 **Touchpad** is only working fine in polling mode
 - ❌🟨 **SDCard** is sometimes not recognized after sleep. It is a known bug of [Sinetek-rtsx.kext](https://github.com/cholonam/Sinetek-rtsx).
-- ➡️🟨 **Sleep : ** fails to wake, screen freezes if you try S3 sleep or hibernation.
+- ~~**Sleep : ** fails to wake, screen freezes if you try S3 sleep or hibernation.~~ Caused by the Crucial P2 NVMe drive.
 
 ---
 
