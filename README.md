@@ -48,8 +48,7 @@ Everything else works well
 
 ### OpenCore
 
-- Tested on macOS 12 Monterey (12.6.2)
-- Should work on macOS 13 Ventura (13) if you change the Airportitlwm.kext to the latest alpha release. I tried it and the wireless connection seems to be too unstable for daily usage at the moment.
+- Tested on macOS 12 Monterey (12.6.2) and Ventura (13.0.1)
 
 ## Installation
 
