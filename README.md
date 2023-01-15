@@ -18,15 +18,15 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
 | Sound Card | Realtek ALC293 (layout-id: 28) |
 | Wireless Card | Intel Wireless-AC 9462 |
 | Ethernet Card | Realtek |
-| Trackpad | ? |
-| SD Card Reader | ? |
+| Trackpad | FTSC1000 |
+| SD Card Reader | Realtek RTS5287 |
 
 ## Current Status
 
 - **Touchpad** ~~is only working fine in polling mode~~ is working fine in GPIO interrupt mode in latest release
-  - added -vi2c-force-polling in boot-args, not working otherwise. Tried GPIO pinning with no success.
 - **Intel Bluetooth** does not support some older Bluetooth devices
   - On macOS12+, Intel Bluetooth supports more Bluetooth 4.x devices
+- **SD Card** working with the legacy [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx), it doesn't work with [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader)
 - **Battery manager** doesn't work properly with SMCBatteryManager.kext (percentage not updating), solved by using Rehabman's ACPIBatteryManager.kext
 - Everything else works well
 ---
@@ -63,7 +63,7 @@ In this repo you will find an unlocked BIOS attempt I made for my own laptop. It
 
 ## Credits
 
-- Thanks to [0xFireWolf](https://github.com/0xFireWolf) for providing [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader) and [RealtekCardReaderFriend](https://github.com/0xFireWolf/RealtekCardReaderFriend).
+- Thanks to [cholonoam](https://github.com/cholonoam) for providing [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx).
 - Thanks to [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [NVMeFix](https://github.com/acidanthera/NVMeFix), [OcBinaryData](https://github.com/acidanthera/OcBinaryData), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [RestrictEvents](https://github.com/acidanthera/RestrictEvents), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooInput](https://github.com/acidanthera/VoodooInput), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
 - Thanks to [OpenIntelWireless](https://github.com/OpenIntelWireless) for providing [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware).
 - Thanks to [RehabMan](https://github.com/RehabMan) for providing [OS-X-ACPI-Battery-Driver](https://github.com/RehabMan/OS-X-ACPI-Battery-Driver)
