@@ -27,7 +27,7 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
 - **Intel Bluetooth** does not support some older Bluetooth devices
   - On macOS12+, Intel Bluetooth supports more Bluetooth 4.x devices
 - **SD Card** working with the legacy [Sinetek-rtsx](https://github.com/cholonam/Sinetek-rtsx), it doesn't work with [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader)
-- **Battery manager** doesn't work properly with SMCBatteryManager.kext (percentage not updating), solved by using Rehabman's ACPIBatteryManager.kext
+- **Battery manager** doesn't work properly with SMCBatteryManager.kext (percentage not updating), solved by using Rehabman's ACPIBatteryManager.kext (recompiled from source using latest XCode)
 - Everything else works well
 ---
 
