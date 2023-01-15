@@ -1,5 +1,5 @@
 # Clevo-NL4x_5xCU-Hackintosh
-Opencore Bootloader for Clevo NL4xCU / NL5xCU series laptop
+Opencore Bootloader for Clevo NL4xCU / NL5xCU series laptop (NL40CU/NL41CU/NL50CU/NL51CU)
 
 ## Configuration
 
