@@ -17,7 +17,7 @@ This repositry has been made based on a Machenike Machcreator-A laptop, which is
 | Monitor | FHD 1920x1080 (15.6 inch) |
 | Sound Card | Realtek ALC293 (layout-id: 28) |
 | Wireless Card | Intel Wireless-AC 9462 |
-| Ethernet Card | Realtek |
+| Ethernet Card | Realtek RTL81111/8168 series |
 | Trackpad | FTSC1000 |
 | SD Card Reader | Realtek RTS5287 |
 
@@ -68,3 +68,4 @@ In this repo you will find an unlocked BIOS attempt I made for my own laptop. It
 - Thanks to [OpenIntelWireless](https://github.com/OpenIntelWireless) for providing [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware).
 - Thanks to [RehabMan](https://github.com/RehabMan) for providing [OS-X-ACPI-Battery-Driver](https://github.com/RehabMan/OS-X-ACPI-Battery-Driver)
 - Thanks to [VoodooI2C](https://github.com/VoodooI2C) for providing [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C).
+- Thanks to [Mieze](https://github.com/Mieze) for providing [RTL8111_driver_for_OS_X](https://github.com/Mieze/RTL8111_driver_for_OS_X).
